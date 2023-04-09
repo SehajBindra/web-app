@@ -80,7 +80,7 @@ function Footer() {
           </div>
         </div>
         <div className=" flex flex-col py-6  border-gray-900 border-t   md:flex md:flex-row px-24 md:items-center md:justify-between justify-center">
-          <span className="text-sm    tracking-wide text-center text-white/80 sm:text-center">
+          <span className="text-sm    tracking-wide text-center text-black/80 sm:text-center">
             © DD Enterprise™ 2023 | All rights reserved.
           </span>
           <div className="flex mt-8  justify-center space-x-6 sm:justify-center md:mt-0">

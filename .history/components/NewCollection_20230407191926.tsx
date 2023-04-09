@@ -5,7 +5,7 @@ function NewCollection() {
     <section>
       <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-          <div className="grid p-6 bg-white rounded place-content-center sm:p-8">
+          <div className="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
             <div className="max-w-md mx-auto text-center lg:text-left">
               <header>
                 <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
@@ -41,11 +41,11 @@ function NewCollection() {
                   />
 
                   <div className="mt-3">
-                    <h3 className="font-medium text-white/90 text-xl group-hover:underline group-hover:underline-offset-4">
-                      Golden Stella RIce
+                    <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                      Simple Watch
                     </h3>
 
-                    <p className="mt-1 text-sm text-white/80">RS 150</p>
+                    <p className="mt-1 text-sm text-gray-700">RS 150</p>
                   </div>
                 </a>
               </li>
@@ -59,11 +59,11 @@ function NewCollection() {
                   />
 
                   <div className="mt-3">
-                    <h3 className="font-medium text-xl text-white/90 group-hover:underline group-hover:underline-offset-4">
-                      Basmati Rice
+                    <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                      Simple Watch
                     </h3>
 
-                    <p className="mt-1 text-sm text-white/80">RS 150</p>
+                    <p className="mt-1 text-sm text-gray-700">RS 150</p>
                   </div>
                 </a>
               </li>

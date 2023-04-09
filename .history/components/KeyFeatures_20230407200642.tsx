@@ -27,8 +27,8 @@ const keyfeatures = [
 
 function KeyFeatures() {
   return (
-    <div className="py-40 bg-black ">
-      <h2 className="text-4xl text-white font-semibold md:text-4xl lg:text-5xl   capitalize mb-8 text-center ">
+    <div className="py-40 bg-white ">
+      <h2 className="text-4xl text-black font-semibold md:text-4xl lg:text-5xl   capitalize mb-8 text-center ">
         why we Stand Out ?
       </h2>
       <div className="md:grid md:grid-cols-3 gap-0  overflow-hidden ">
@@ -44,11 +44,11 @@ function KeyFeatures() {
                   />
                 </div>
                 <div className="p-8">
-                  <a className="block mt-1 text-lg leading-tight font-medium text-blue-300 hover:underline">
+                  <a className="block mt-1 text-lg leading-tight font-medium text-black/80 hover:underline">
                     {keyfeature.name}
                   </a>
 
-                  <p className="mt-2 text-justify  -tracking-tighter   text-white/80">
+                  <p className="mt-2 text-justify  -tracking-tighter   text-black/60">
                     {keyfeature.desc}
                   </p>
                 </div>

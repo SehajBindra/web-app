@@ -59,11 +59,11 @@ function NewCollection() {
                   />
 
                   <div className="mt-3">
-                    <h3 className="font-medium text-xl text-white/90 group-hover:underline group-hover:underline-offset-4">
+                    <h3 className="font-medium text-white/80 group-hover:underline group-hover:underline-offset-4">
                       Basmati Rice
                     </h3>
 
-                    <p className="mt-1 text-sm text-white/80">RS 150</p>
+                    <p className="mt-1 text-sm text-gray-700">RS 150</p>
                   </div>
                 </a>
               </li>

@@ -59,7 +59,7 @@ function NewCollection() {
                   />
 
                   <div className="mt-3">
-                    <h3 className="font-medium text-xl text-white/90 group-hover:underline group-hover:underline-offset-4">
+                    <h3 className="font-medium text-white/90 group-hover:underline group-hover:underline-offset-4">
                       Basmati Rice
                     </h3>
 

@@ -19,7 +19,7 @@ function AboutUs() {
               production.
             </p>
 
-            <p className="font-normal text-justify -tracking-tighter text-base leading-6 text-white/80 my-8">
+            <p className="font-normal text-justify -tracking-tighter text-base leading-6 text-black/80 my-8">
               Our company was founded over thirty years ago by a group of rice
               farmers who were passionate about the quality and sustainability
               of their product. At the time, the rice industry was dominated by

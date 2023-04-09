@@ -34,10 +34,10 @@ function Footer() {
           </div>
 
           <div className="hidden md:inline">
-            <h2 className="mb-6 text-sm font-semibold text-white uppercase ">
+            <h2 className="mb-6 text-sm font-semibold text-black uppercase ">
               Legal
             </h2>
-            <ul className="text-white/80">
+            <ul className="text-black/80">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
                   Privacy Policy
@@ -57,10 +57,10 @@ function Footer() {
           </div>
 
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-white uppercase ">
+            <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black">
               Legal
             </h2>
-            <ul className="text-white/80">
+            <ul className="text-black/80">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
                   Privacy Policy
@@ -79,8 +79,8 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className=" flex flex-col py-6  border-gray-900 border-t   md:flex md:flex-row px-24 md:items-center md:justify-between justify-center">
-          <span className="text-sm    tracking-wide text-center text-white/80 sm:text-center">
+        <div className=" flex flex-col py-6  border-gray-100 border-t   md:flex md:flex-row px-24 md:items-center md:justify-between justify-center">
+          <span className="text-sm    tracking-wide text-center text-black/80 sm:text-center">
             © DD Enterprise™ 2023 | All rights reserved.
           </span>
           <div className="flex mt-8  justify-center space-x-6 sm:justify-center md:mt-0">

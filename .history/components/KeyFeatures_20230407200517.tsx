@@ -12,23 +12,23 @@ const keyfeatures = [
 
   {
     id: 5,
-    name: "Community",
-    desc: ` We are proud to be part of a vibrant rice-growing community and support local farmers and businesses whenever possible. When you choose us, you are supporting a network of hard-working individuals and families who are dedicated to producing high-quality rice.
+    name: "Customer Service",
+    desc: ` We pride ourselves on providing excellent customer service. Our friendly and knowledgeable staff are always ready to answer any questions and provide assistance..
     `,
     img: "/support.png",
   },
   {
     id: 6,
-    name: "Freshness",
-    desc: `We believe that fresh rice is the best rice. Our rice is harvested in small batches to ensure maximum freshness, and we store our rice in temperature-controlled environments to maintain its quality.`,
+    name: "Sustainability",
+    desc: ` We are committed to sustainable farming practices and supporting local communities. When you choose our rice, you are not only getting a quality product but also supporting a sustainable and responsible business.`,
     img: "/sustainable.png",
   },
 ];
 
 function KeyFeatures() {
   return (
-    <div className="py-40 bg-black ">
-      <h2 className="text-4xl text-white font-semibold md:text-4xl lg:text-5xl   capitalize mb-8 text-center ">
+    <div className="py-40 bg-white ">
+      <h2 className="text-4xl text-black font-semibold md:text-4xl lg:text-5xl   capitalize mb-8 text-center ">
         why we Stand Out ?
       </h2>
       <div className="md:grid md:grid-cols-3 gap-0  overflow-hidden ">
@@ -44,11 +44,11 @@ function KeyFeatures() {
                   />
                 </div>
                 <div className="p-8">
-                  <a className="block mt-1 text-lg leading-tight font-medium text-blue-300 hover:underline">
+                  <a className="block mt-1 text-lg leading-tight font-medium text-black/80 hover:underline">
                     {keyfeature.name}
                   </a>
 
-                  <p className="mt-2 text-justify  -tracking-tighter   text-white/80">
+                  <p className="mt-2 text-justify  -tracking-tighter   text-black/60">
                     {keyfeature.desc}
                   </p>
                 </div>

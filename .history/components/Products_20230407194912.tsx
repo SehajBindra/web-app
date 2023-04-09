@@ -62,7 +62,7 @@ function Products() {
   return (
     <div className="py-20">
       <h2 className="text-4xl mb-8 text-center text-white font-semibold">
-        Our collection
+        Our Goods
       </h2>
 
       <div className="md:grid md:grid-cols-3 gap-4   overflow-hidden">
